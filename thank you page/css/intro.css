@@ -1,0 +1,20 @@
+
+
+.container{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.order{
+    font-weight: bold;
+}
+
+.remind{
+    font-weight: bold;
+    color: rgb(219, 42, 42);
+}
+
+.center-img {
+    text-align: center;
+  }
