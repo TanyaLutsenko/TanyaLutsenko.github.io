@@ -1,0 +1,178 @@
+.container{
+    margin-top: 70px;
+    padding: 0 15px;
+    display: flex;
+}
+
+.filters{
+    width: 25%;
+}
+
+.filter__item{
+    margin-bottom: 30px;
+}
+
+.filter__label{
+    padding-bottom: 10px;
+}
+
+.filter__select{
+    width: 50%;
+}
+
+.content{
+    width: 75%;
+}
+
+.block{
+    
+    margin-top: 40px;
+    max-width: 80%;
+   
+}
+
+.name{
+    
+    margin-bottom: 8px;
+    
+}
+
+/*span*/
+.seo__color{
+    color: rgb(95, 136, 189);
+    font-weight: bold;
+}
+
+.h1__color{
+    color: #000;
+    font-weight: bold;
+}
+
+.quantity{
+    color: #000;
+    font-weight: bold;
+}
+
+.underline__text{
+    color: rgb(160, 156, 156);
+}
+
+.underline__text2{
+    color: rgb(72, 86, 216);
+}
+
+.text__bold{
+    color: #000;
+    font-weight: bold;
+
+}
+
+/*span*/
+
+/*.fixed{
+    
+    padding-right: 10px;
+}
+
+.budget{
+   
+    padding: 0px 10px;
+}
+.delivery{
+   
+    padding: 0px 10px;
+}
+.posted{
+    
+    padding: 0px 10px;
+}
+.ends{
+    
+    padding: 0px 10px;
+}
+.proposals{
+   
+    padding: 0px 10px;
+} */
+
+.option{
+    padding: 0px 10px;
+}
+
+.option:first-child{
+    padding-left: 0px;
+}
+
+.description{
+  
+    padding: 10px 0px;
+    
+}
+/*.category{
+    
+    padding-right: 10px;
+}
+.skills{
+    
+    padding: 0px 10px;
+    
+}
+.framework{
+    
+    padding: 0px 10px;
+}
+.php{
+    
+    padding: 0px 10px;
+}
+.maps{
+   
+    padding: 0px 10px;
+}*/
+
+.category{
+    padding: 0px 10px;
+}
+
+.category:first-child{
+    padding-left: 0px;
+}
+.country{
+    
+    padding-right: 10px;
+}
+.rating{
+    
+    padding-left: 10px;
+}
+/*временно цвета для блоков*/
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.categories{
+    display: flex;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.client{
+    display: flex;
+}
+
+@media (max-width: 780px) {
+    .filters{
+        display: none;
+    }
+
+    .block{
+        max-width: 100%;
+    }
+
+    .content{
+        width: 100%;
+    }
+}

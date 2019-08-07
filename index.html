@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Задание</title>
+
+    <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/chosen.css" charset="utf-8">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!--Фильтр-->
+        <div class="filters">
+            <form>
+
+
+                <div class="filter__item">
+                    <div class="filter__label">
+                        <label for="category"><span class="h1__color">Choose Category</span></label>
+                    </div>
+
+                    <div class="filter__content">
+                        <select name="category" class="filter__select" id="category">
+                            <option value="best">Best Match</option>
+                            <option value="best" selected>Best Match</option>
+                            <option value="best">Best Match</option>
+                            <option value="best">Best Match</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="filter__item">
+
+                    <div class="filter__label">
+                        <label><span class="h1__color">Choose Subcategory</span></label>
+                    </div>
+
+                    <div class="filter__content">
+                        <input type="checkbox" name="subcategory" value="all subcategories" id="all__subcategories">
+                        <label for="all subcategories">All Subcategories</label>
+                        <br><input type="checkbox" name="subcategory" value="data entry" id="data__entry">
+                        <label for="data entry">Data Entry <span class="quantity">(1 306)</span></label>
+                        <br><input type="checkbox" name="subcategory" value="personal assistant"
+                            id="personal assistant">
+                        <label for="personal assistant">Personal Assistant <span class="quantity">(1 907)</span></label>
+                        <br><input type="checkbox" name="subcategory" value="web research" id="web__research">
+                        <label for="web research">Web Research <span class="quantity">(972)</span></label>
+                        <br><input type="checkbox" name="subcategory" value="email response handling"
+                            id="email response handling" checked>
+                        <label for="email response handling">Email Response Handling <span
+                                class="quantity">(80)</span></label>
+                        <br><input type="checkbox" name="subcategory" value="transcription" id="transcription" checked>
+                        <label for="transcription">Transcription <span class="quantity">(307)</span></label>
+                        <br><input type="checkbox" name="subcategory" value="other" id="other" checked>
+                        <label for="other">Other - Administrative support</label>
+                    </div>
+                </div>
+
+
+
+                <div class="filter__item">
+                    <div class="filter__label">
+                        <label><span class="h1__color">Client Rating</span></label>
+                    </div>
+
+                    <div class="filter__content"><input type="radio" name="rating" value="any" id="any" checked>
+                        <label for="any">Any stars</label>
+                        <br><input type="radio" name="rating" value="5 stars" id="5__stars">
+                        <label for="5 stars">5 stars <span class="quantity">(930)</span></label>
+                        <br><input type="radio" name="rating" value="4.5 stars" id="4.5__stars">
+                        <label for="4.5 stars">4.5 stars and Up <span class="quantity">(2 591)</span></label>
+                        <br><input type="radio" name="rating" value="4 stars" id="4__stars">
+                        <label for="4 stars">4 stars and Up <span class="quantity">(1 546)</span></label>
+                        <div>
+                            <input type="checkbox" name="rating" value="unrated" id="unrated" checked>
+                            <label for="unrated">Include unrated freelancers <span class="quantity">(1
+                                    784)</span></label>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="filter__item">
+                    <div class="filter__label">
+                        <label for="budget"><span class="h1__color">Budget</span></label>
+                    </div>
+
+                    <div class="filter__content">
+                        <select name="budget" id="budget" class="filter__select">
+                            <option value="best">Any budget</option>
+                            <option value="best" selected>Any budget</option>
+                            <option value="best">Any budget</option>
+                            <option value="best">Any budget</option>
+                        </select>
+                    </div>
+                </div>
+
+
+
+
+                <div class="filter__item">
+
+                    <div class="filter__label">
+                        <label for="delivery"><span class="h1__color">Delivery</span></label>
+                    </div>
+                    <div class="filter__content">
+                        <select name="delivery" class="filter__select" id="delivery">
+                            <option value="best">Any..</option>
+                            <option value="best" selected>Any..</option>
+                            <option value="best">Any..</option>
+                            <option value="best">Any..</option>
+                        </select>
+                    </div>
+
+
+                </div>
+
+                <div class="filter__item">
+
+                    <div class="filter__label">
+                        <label for="location"><span class="h1__color">Location</span></label>
+                    </div>
+
+                    <div class="filter__content">
+                        <select name="location" id="location" class="filter__select">
+                            <option value="best">Any Location</option>
+                            <option value="best" selected>Any Location</option>
+                            <option value="best">Any Location</option>
+                            <option value="best">Any Location</option>
+                        </select>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+        <!--Основная информация-->
+        <div class="content" id="content">
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/chosen.jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
